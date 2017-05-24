@@ -1,7 +1,5 @@
-import Express from 'redux-thunk';
 import thunk from 'redux-thunk';
-
-import { hooks, environments, positions, register } from 'universal-redux/lib/hooks';
+import { hooks, environments, positions, register } from 'universal-redux';
 
 register(hooks.CREATE_REDUX_MIDDLEWARE, function(data){
   return {
